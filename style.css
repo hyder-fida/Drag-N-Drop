@@ -1,0 +1,40 @@
+body{
+    background: rgb(53, 31, 200);
+}
+
+h1{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.whiteBox{
+    display: inline-block;
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    background-color: white;
+    border: 3px black solid;
+}
+
+.imgBox{
+    background-image: url('9470 (2).jpg');
+    position: relative;
+    top: 2px;
+    left: 2px;
+   width: 150px;
+   height: 150px;
+    cursor: pointer;
+}
+
+.hold{
+    border: solid red 4px;
+}
+
+.dashed{
+    background: rgb(214, 206, 206);
+    border-style: dashed;
+}
+
+.hide{
+    display: none;
+}
